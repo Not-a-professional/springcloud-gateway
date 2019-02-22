@@ -1,0 +1,9 @@
+server:
+  port: 1080
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://liwei:wwwliwei001com@106.12.19.58:2080/eureka
